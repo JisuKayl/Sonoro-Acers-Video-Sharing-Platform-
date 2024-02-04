@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sonoro Acers</title>
+
+    <link rel="icon" href="../Photos/logo1.png" type="image/png" />
+    <link rel="stylesheet" href="../Css/styles.css" />
+  </head>
+  <body>
+    <header class="body__header">
+      <div class="logo__container">
+        <img
+          class="icons menu__icon"
+          src="../Icons/menu-outline.svg"
+          alt="Menu Icon"
+        />
+        <img
+          class="icons logo__icon"
+          src="../Photos/logo1.png"
+          alt="Logo Icon"
+        />
+        <p class="logo__text">Sonoro Acers</p>
+      </div>
+
+      <div class="search__container">
+        <input class="search__field" type="text" placeholder="Search" />
+        <img
+          class="icons search__icon"
+          src="../Icons/search-circle-outline.svg"
+          alt="Search Icon"
+        />
+        <img
+          class="icons mic__icon"
+          src="../Icons/mic-circle-outline.svg"
+          alt="Mic Icon"
+        />
+      </div>
+
+      <div class="user__container">
+        <img
+          class="icons"
+          src="../Icons/notifications-circle-outline.svg"
+          alt="Notification Icon"
+        />
+        <img
+          class="icons user__icon"
+          src="../Icons/person-circle-outline.svg"
+          alt="User Logo"
+        />
+      </div>
+    </header>
+
+    <div class="body__sidebar">
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html" class="nav__icon"
+              ><i class="nav__icon"
+                ><img
+                  class="icon__side"
+                  src="../Icons/homelogo.png"
+                  alt="Home Icon"
+              /></i>
+              Home</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="nav__icon"
+                ><i class="nav__icon"
+                  ><img
+                    class="icon__side"
+                    src="../Icons/homelogo.png"
+                    alt="Home Icon" /></i
+              ></i>
+              Subscriptions</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="nav__icon"
+                ><i class="nav__icon"
+                  ><img
+                    class="icon__side"
+                    src="../Icons/homelogo.png"
+                    alt="Home Icon" /></i
+              ></i>
+              Library</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="nav__icon"
+                ><i class="nav__icon"
+                  ><img
+                    class="icon__side"
+                    src="../Icons/homelogo.png"
+                    alt="Home Icon" /></i
+              ></i>
+              History</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="nav__icon"
+                ><i class="nav__icon"
+                  ><img
+                    class="icon__side"
+                    src="../Icons/homelogo.png"
+                    alt="Home Icon" /></i
+              ></i>
+              Watch Later</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <main class="body__main">
+      <div class="main__container">
+        <div class="content__container">
+          <div
+            class="content__thumbnail"
+            onclick="showVideo(event)"
+            data-video="../Videos/old_squad_intro.mp4"
+          >
+            <img
+              class="thumbnails"
+              src="../Thumbnails/old_intro.jpg"
+              alt="Content Thumbnail"
+            />
+          </div>
+          <div class="content__details__container">
+            <div class="content__avatar">
+              <img
+                class="avatars"
+                src="../Users Picture/leo_user.jpg"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="content__details">
+              <p class="content__title">Old Squad Intro</p>
+              <p class="user__information content__additional__information">
+                Leo Luis Gatchalian
+              </p>
+              <p class="content__additional__information">
+                100K views • 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content__container">
+          <div
+            class="content__thumbnail"
+            onclick="showVideo(event)"
+            data-video="../Videos/new_squad_intro.mp4"
+          >
+            <img
+              class="thumbnails"
+              src="../Thumbnails/new_intro.jpg"
+              alt="Content Thumbnail"
+            />
+          </div>
+          <div class="content__details__container">
+            <div class="content__avatar">
+              <img
+                class="avatars"
+                src="../Icons/profile(1).png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="content__details">
+              <p class="content__title">New Squad Intro</p>
+              <p class="user__information content__additional__information">
+                Jerson Kyle Bonifacio
+              </p>
+              <p class="content__additional__information">
+                100K views • 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content__container">
+          <div class="content__thumbnail">
+            <img
+              class="thumbnails"
+              src="../Photos/placeholder.jpg"
+              alt="Content Thumbnail"
+            />
+          </div>
+          <div class="content__details__container">
+            <div class="content__avatar">
+              <img
+                class="avatars"
+                src="../Icons/profile(1).png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="content__details">
+              <p class="content__title">Sonoro Acers Video</p>
+              <p class="user__information content__additional__information">
+                Jerson Kyle Bonifacio
+              </p>
+              <p class="content__additional__information">
+                100K views • 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content__container">
+          <div class="content__thumbnail">
+            <img
+              class="thumbnails"
+              src="../Photos/placeholder.jpg"
+              alt="Content Thumbnail"
+            />
+          </div>
+          <div class="content__details__container">
+            <div class="content__avatar">
+              <img
+                class="avatars"
+                src="../Icons/profile(1).png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="content__details">
+              <p class="content__title">Sonoro Acers Video</p>
+              <p class="user__information content__additional__information">
+                Jerson Kyle Bonifacio
+              </p>
+              <p class="content__additional__information">
+                100K views • 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content__container">
+          <div class="content__thumbnail">
+            <img
+              class="thumbnails"
+              src="../Photos/placeholder.jpg"
+              alt="Content Thumbnail"
+            />
+          </div>
+          <div class="content__details__container">
+            <div class="content__avatar">
+              <img
+                class="avatars"
+                src="../Icons/profile(1).png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="content__details">
+              <p class="content__title">Sonoro Acers Video</p>
+              <p class="user__information content__additional__information">
+                Jerson Kyle Bonifacio
+              </p>
+              <p class="content__additional__information">
+                100K views • 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="content__container">
+          <div class="content__thumbnail">
+            <img
+              class="thumbnails"
+              src="../Photos/placeholder.jpg"
+              alt="Content Thumbnail"
+            />
+          </div>
+          <div class="content__details__container">
+            <div class="content__avatar">
+              <img
+                class="avatars"
+                src="../Icons/profile(1).png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="content__details">
+              <p class="content__title">Sonoro Acers Video</p>
+              <p class="user__information content__additional__information">
+                Jerson Kyle Bonifacio
+              </p>
+              <p class="content__additional__information">
+                100K views • 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content__container">
+          <div class="content__thumbnail">
+            <img
+              class="thumbnails"
+              src="../Photos/placeholder.jpg"
+              alt="Content Thumbnail"
+            />
+          </div>
+          <div class="content__details__container">
+            <div class="content__avatar">
+              <img
+                class="avatars"
+                src="../Icons/profile(1).png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="content__details">
+              <p class="content__title">Sonoro Acers Video</p>
+              <p class="user__information content__additional__information">
+                Jerson Kyle Bonifacio
+              </p>
+              <p class="content__additional__information">
+                100K views • 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content__container">
+          <div class="content__thumbnail">
+            <img
+              class="thumbnails"
+              src="../Photos/placeholder.jpg"
+              alt="Content Thumbnail"
+            />
+          </div>
+          <div class="content__details__container">
+            <div class="content__avatar">
+              <img
+                class="avatars"
+                src="../Icons/profile(1).png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="content__details">
+              <p class="content__title">Sonoro Acers Video</p>
+              <p class="user__information content__additional__information">
+                Jerson Kyle Bonifacio
+              </p>
+              <p class="content__additional__information">
+                100K views • 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content__container">
+          <div class="content__thumbnail">
+            <img
+              class="thumbnails"
+              src="../Photos/placeholder.jpg"
+              alt="Content Thumbnail"
+            />
+          </div>
+          <div class="content__details__container">
+            <div class="content__avatar">
+              <img
+                class="avatars"
+                src="../Icons/profile(1).png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="content__details">
+              <p class="content__title">Sonoro Acers Video</p>
+              <p class="user__information content__additional__information">
+                Jerson Kyle Bonifacio
+              </p>
+              <p class="content__additional__information">
+                100K views • 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content__container">
+          <div class="content__thumbnail">
+            <img
+              class="thumbnails"
+              src="../Photos/placeholder.jpg"
+              alt="Content Thumbnail"
+            />
+          </div>
+          <div class="content__details__container">
+            <div class="content__avatar">
+              <img
+                class="avatars"
+                src="../Icons/profile(1).png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="content__details">
+              <p class="content__title">Sonoro Acers Video</p>
+              <p class="user__information content__additional__information">
+                Jerson Kyle Bonifacio
+              </p>
+              <p class="content__additional__information">
+                100K views • 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content__container">
+          <div class="content__thumbnail">
+            <img
+              class="thumbnails"
+              src="../Photos/placeholder.jpg"
+              alt="Content Thumbnail"
+            />
+          </div>
+          <div class="content__details__container">
+            <div class="content__avatar">
+              <img
+                class="avatars"
+                src="../Icons/profile(1).png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="content__details">
+              <p class="content__title">Sonoro Acers Video</p>
+              <p class="user__information content__additional__information">
+                Jerson Kyle Bonifacio
+              </p>
+              <p class="content__additional__information">
+                100K views • 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content__container">
+          <div class="content__thumbnail">
+            <img
+              class="thumbnails"
+              src="../Photos/placeholder.jpg"
+              alt="Content Thumbnail"
+            />
+          </div>
+          <div class="content__details__container">
+            <div class="content__avatar">
+              <img
+                class="avatars"
+                src="../Icons/profile(1).png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="content__details">
+              <p class="content__title">Sonoro Acers Video</p>
+              <p class="user__information content__additional__information">
+                Jerson Kyle Bonifacio
+              </p>
+              <p class="content__additional__information">
+                100K views • 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content__container">
+          <div class="content__thumbnail">
+            <img
+              class="thumbnails"
+              src="../Photos/placeholder.jpg"
+              alt="Content Thumbnail"
+            />
+          </div>
+          <div class="content__details__container">
+            <div class="content__avatar">
+              <img
+                class="avatars"
+                src="../Icons/profile(1).png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="content__details">
+              <p class="content__title">Sonoro Acers Video</p>
+              <p class="user__information content__additional__information">
+                Jerson Kyle Bonifacio
+              </p>
+              <p class="content__additional__information">
+                100K views • 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content__container">
+          <div class="content__thumbnail">
+            <img
+              class="thumbnails"
+              src="../Photos/placeholder.jpg"
+              alt="Content Thumbnail"
+            />
+          </div>
+          <div class="content__details__container">
+            <div class="content__avatar">
+              <img
+                class="avatars"
+                src="../Icons/profile(1).png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="content__details">
+              <p class="content__title">Sonoro Acers Video</p>
+              <p class="user__information content__additional__information">
+                Jerson Kyle Bonifacio
+              </p>
+              <p class="content__additional__information">
+                100K views • 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content__container">
+          <div class="content__thumbnail">
+            <img
+              class="thumbnails"
+              src="../Photos/placeholder.jpg"
+              alt="Content Thumbnail"
+            />
+          </div>
+          <div class="content__details__container">
+            <div class="content__avatar">
+              <img
+                class="avatars"
+                src="../Icons/profile(1).png"
+                alt="User Avatar"
+              />
+            </div>
+            <div class="content__details">
+              <p class="content__title">Sonoro Acers Video</p>
+              <p class="user__information content__additional__information">
+                Jerson Kyle Bonifacio
+              </p>
+              <p class="content__additional__information">
+                100K views • 1 day ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="videoPopup" class="video__container">
+      <div class="video__subcontainer">
+        <button class="exit__button" onclick="closeVideoPopup()">
+          <img class="icons" src="../Icons/close-circle.svg" alt="Exit Button" />
+        </button>        
+        <video id="popupVideo" class="main__video" controls>
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      </div>
+      
+    </main>
+
+    <footer class="body__footer">
+      
+    </footer>
+
+    <script src="../Js/index.js"></script>
+  </body>
+</html>
