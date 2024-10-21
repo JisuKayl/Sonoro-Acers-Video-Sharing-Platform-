@@ -1,9 +1,6 @@
 function showVideo(event) {
   var videoSource = event.currentTarget.dataset.video;
 
-  console.log("Event Target:", event.currentTarget);
-  console.log("Video Source:", videoSource);
-
   var popupVideo = document.getElementById("popupVideo");
   popupVideo.src = videoSource;
 
